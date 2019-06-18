@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578334938208",
+    "firebase_url": "https://user-registration-system.firebaseio.com",
+    "project_id": "user-registration-system",
+    "storage_bucket": "user-registration-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578334938208:android:eab3a8e5a86d6474",
+        "android_client_info": {
+          "package_name": "tv.anandhkumar.userregistrationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578334938208-msspdd91sdslbfn8986315p2ggnq7s65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tv.anandhkumar.userregistrationsystem",
+            "certificate_hash": "6aebfa1a376e5da6ec1138de1aa3ee0b469eddce"
+          }
+        },
+        {
+          "client_id": "578334938208-mfbansm0r8ntnk5ksr6laoi1kbst6ruv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn6c2D6rdxLa6pY66zQimr449XoswB4Iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578334938208-mfbansm0r8ntnk5ksr6laoi1kbst6ruv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
