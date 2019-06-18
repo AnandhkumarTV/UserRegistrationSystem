@@ -1,5 +1,6 @@
 package tv.anandhkumar.userregistrationsystem;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -48,8 +49,15 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this,SignupActivity.class);
+                startActivity(i);
+            }
+        });
     }
+
 
     public void onRegister(View view){
 

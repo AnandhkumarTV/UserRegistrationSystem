@@ -12,8 +12,9 @@
         android:bottom="8dp"/>
     <gradient
         android:angle="45"
-        android:startColor="#FFCA28"
-        android:endColor="#FFA000"/>
+        android:startColor="#F57C00"
+        android:centerColor="#FFA000"
+        android:endColor="#FFCA28"/>
     <size
         android:width="5dp"/>
     <stroke
