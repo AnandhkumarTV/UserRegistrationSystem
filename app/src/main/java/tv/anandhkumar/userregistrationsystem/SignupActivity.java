@@ -73,7 +73,7 @@ public class SignupActivity extends AppCompatActivity {
                         public void onSuccess(Void aVoid) {
 
                             Toast.makeText(getApplicationContext(), "Registered successfully", Toast.LENGTH_SHORT).show();
-                            Intent in = new Intent(SignupActivity.this, MainActivity.class);
+                            Intent in = new Intent(SignupActivity.this, RetrivalActivity.class);
                             startActivity(in);
                         }
                     }).addOnFailureListener(new OnFailureListener() {

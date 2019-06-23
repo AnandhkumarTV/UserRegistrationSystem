@@ -16,6 +16,7 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -30,6 +31,7 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textWebEmailAddress|textPersonName|textEmailAddress"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
@@ -45,6 +47,7 @@
         android:fontFamily="monospace"
         android:hint="Phone No: "
         android:inputType="phone"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
@@ -60,6 +63,7 @@
         android:fontFamily="monospace"
         android:text="sign up"
         android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phoneno" />
@@ -74,6 +78,7 @@
         android:text="Please provide valid details"
         android:textColor="#039BE5"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
