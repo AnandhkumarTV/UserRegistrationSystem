@@ -67,7 +67,6 @@ public class RetrivalActivity extends AppCompatActivity {
                     Toast.makeText(RetrivalActivity.this, "Data is not retrieved", Toast.LENGTH_SHORT).show();
 
                 }
-
                 users.add(Email);
                 arrayAdapter.notifyDataSetChanged();
 
